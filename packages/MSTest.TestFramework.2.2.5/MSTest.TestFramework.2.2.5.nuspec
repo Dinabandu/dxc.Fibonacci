@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MSTest.TestFramework</id>
+    <version>2.2.5</version>
+    <title>MSTest.TestFramework</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>https://www.nuget.org/packages/MSTest.TestFramework/2.2.5/license</licenseUrl>
+    <projectUrl>https://github.com/microsoft/testfx</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/mstest.testframework/2.2.5/icon</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This is MSTest V2, the evolution of Microsoft's Test Framework.
+
+      Supported platforms:
+      - .NET 4.5.0+
+      - .NET Core 1.0+ (Universal Windows Apps 10+, DNX Core 5+)
+      - .NET 5.0 Windows.17763+ (WinUI Desktop Apps) (Visual Studio 2019)
+      - ASP.NET Core 1.0+
+
+      To discover and execute tests install MSTest.TestAdapter.</description>
+    <summary>This is MSTest V2, the evolution of Microsoft's Test Framework.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>MSTest TestFramework Unittest MSTestV2 Microsoft Test Testing TDD Framework</tags>
+    <dependencies>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Diagnostics.TextWriterTraceListener" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework5.0-windows10.0.18362" />
+    </dependencies>
+  </metadata>
+</package>
